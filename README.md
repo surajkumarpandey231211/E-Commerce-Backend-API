@@ -131,12 +131,12 @@ This application is containerized using Docker and deployed on **Render**.
 ## 🗄️ Database Configuration
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
-spring.datasource.username=YOUR_USERNAME
-spring.datasource.password=YOUR_PASSWORD
+spring.datasource.url=${SPRING_DATASOURCE_URL}
+spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
+spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update spring.jpa.show-sql=true
+server.port=${PORT:8080}
 ```
 
 ---
