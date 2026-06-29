@@ -135,7 +135,8 @@ spring.datasource.url=${SPRING_DATASOURCE_URL}
 spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
 spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
 
-spring.jpa.hibernate.ddl-auto=update spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
 server.port=${PORT:8080}
 ```
 
@@ -169,6 +170,3 @@ server.port=${PORT:8080}
 * Payment Gateway Integration
 * CI/CD Pipeline using GitHub Actions
 
----
-
-If you found this project useful, please give it a ⭐ on GitHub.
